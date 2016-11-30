@@ -1,0 +1,1613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="20" total="72" passed="52">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test2 - Suite" duration-ms="16310" started-at="2016-11-29T22:55:44Z" finished-at="2016-11-29T22:56:00Z">
+    <groups>
+    </groups>
+    <test name="ApiTest" duration-ms="16310" started-at="2016-11-29T22:55:44Z" finished-at="2016-11-29T22:56:00Z">
+      <class name="automationFramework.NextWave2RestApi.ApiCustomerPost">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="733" started-at="2016-11-29T14:55:44Z" finished-at="2016-11-29T14:55:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="apiErrorAddressId()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorAddressId" duration-ms="1569" started-at="2016-11-29T14:55:44Z" finished-at="2016-11-29T14:55:46Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorAddressId(ApiCustomerPost.java:297)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorAddressId -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-11-29T14:55:46Z" finished-at="2016-11-29T14:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="97" started-at="2016-11-29T14:55:46Z" finished-at="2016-11-29T14:55:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorBlankAddress()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorBlankAddress" duration-ms="1073" started-at="2016-11-29T14:55:46Z" finished-at="2016-11-29T14:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorBlankAddress -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="6" started-at="2016-11-29T14:55:47Z" finished-at="2016-11-29T14:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="90" started-at="2016-11-29T14:55:47Z" finished-at="2016-11-29T14:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorBlankCity()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorBlankCity" duration-ms="64" started-at="2016-11-29T14:55:47Z" finished-at="2016-11-29T14:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorBlankCity -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="2" started-at="2016-11-29T14:55:47Z" finished-at="2016-11-29T14:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="84" started-at="2016-11-29T14:55:47Z" finished-at="2016-11-29T14:55:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorBlankContact()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorBlankContact" duration-ms="56" started-at="2016-11-29T14:55:47Z" finished-at="2016-11-29T14:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorBlankContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="2" started-at="2016-11-29T14:55:48Z" finished-at="2016-11-29T14:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="78" started-at="2016-11-29T14:55:48Z" finished-at="2016-11-29T14:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorBlankContactFirstName()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorBlankContactFirstName" duration-ms="60" started-at="2016-11-29T14:55:48Z" finished-at="2016-11-29T14:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorBlankContactFirstName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="4" started-at="2016-11-29T14:55:48Z" finished-at="2016-11-29T14:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="93" started-at="2016-11-29T14:55:48Z" finished-at="2016-11-29T14:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorBlankContactLastName()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorBlankContactLastName" duration-ms="52" started-at="2016-11-29T14:55:48Z" finished-at="2016-11-29T14:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorBlankContactLastName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="2" started-at="2016-11-29T14:55:48Z" finished-at="2016-11-29T14:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="95" started-at="2016-11-29T14:55:48Z" finished-at="2016-11-29T14:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorBlankContactName()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorBlankContactName" duration-ms="333" started-at="2016-11-29T14:55:48Z" finished-at="2016-11-29T14:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorBlankContactName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="3" started-at="2016-11-29T14:55:48Z" finished-at="2016-11-29T14:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="98" started-at="2016-11-29T14:55:48Z" finished-at="2016-11-29T14:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorBlankContactType()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorBlankContactType" duration-ms="64" started-at="2016-11-29T14:55:48Z" finished-at="2016-11-29T14:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorBlankContactType -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="2" started-at="2016-11-29T14:55:48Z" finished-at="2016-11-29T14:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="70" started-at="2016-11-29T14:55:48Z" finished-at="2016-11-29T14:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorBlankCountry()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorBlankCountry" duration-ms="44" started-at="2016-11-29T14:55:48Z" finished-at="2016-11-29T14:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorBlankCountry -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="2" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="74" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorBlankCustomerType()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorBlankCustomerType" duration-ms="38" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorBlankCustomerType -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="3" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="68" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorBlankEmail()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorBlankEmail" duration-ms="95" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorBlankEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="2" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="82" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorBlankPassword()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorBlankPassword" duration-ms="44" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorBlankPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="11" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="82" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorBlankPersonalId()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorBlankPersonalId" duration-ms="77" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorBlankPersonalId -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="4" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="87" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorBlankPersonalIdType()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorBlankPersonalIdType" duration-ms="54" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorBlankPersonalIdType -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="3" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="72" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="apiErrorBlankPhoneNumber()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorBlankPhoneNumber" duration-ms="36" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:49Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [contact.phone[0].phoneNumber] but found [contact.phone[0].number]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [contact.phone[0].phoneNumber] but found [contact.phone[0].number]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneNumber(ApiCustomerPost.java:420)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorBlankPhoneNumber -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="3" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="70" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="apiErrorBlankPhoneNumber2()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorBlankPhoneNumber2" duration-ms="54" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:49Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [contact.phone[1].phoneNumber] but found [contact.phone[1].number]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [contact.phone[1].phoneNumber] but found [contact.phone[1].number]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneNumber2(ApiCustomerPost.java:460)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorBlankPhoneNumber2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="3" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="66" started-at="2016-11-29T14:55:49Z" finished-at="2016-11-29T14:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="apiErrorBlankPhoneNumber3()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorBlankPhoneNumber3" duration-ms="94" started-at="2016-11-29T14:55:50Z" finished-at="2016-11-29T14:55:50Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [contact.phone[2].phoneNumber] but found [contact.phone[2].number]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [contact.phone[2].phoneNumber] but found [contact.phone[2].number]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneNumber3(ApiCustomerPost.java:500)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorBlankPhoneNumber3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="3" started-at="2016-11-29T14:55:50Z" finished-at="2016-11-29T14:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="70" started-at="2016-11-29T14:55:50Z" finished-at="2016-11-29T14:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="apiErrorBlankPhoneType()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorBlankPhoneType" duration-ms="38" started-at="2016-11-29T14:55:50Z" finished-at="2016-11-29T14:55:50Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [contact.phone[0].phoneType] but found [contact.phone[0].type]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [contact.phone[0].phoneType] but found [contact.phone[0].type]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneType(ApiCustomerPost.java:440)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorBlankPhoneType -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="25" started-at="2016-11-29T14:55:50Z" finished-at="2016-11-29T14:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="77" started-at="2016-11-29T14:55:50Z" finished-at="2016-11-29T14:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="apiErrorBlankPhoneType2()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorBlankPhoneType2" duration-ms="70" started-at="2016-11-29T14:55:50Z" finished-at="2016-11-29T14:55:50Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [contact.phone[1].phoneType] but found [contact.phone[1].type]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [contact.phone[1].phoneType] but found [contact.phone[1].type]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneType2(ApiCustomerPost.java:481)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorBlankPhoneType2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="4" started-at="2016-11-29T14:55:50Z" finished-at="2016-11-29T14:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="97" started-at="2016-11-29T14:55:50Z" finished-at="2016-11-29T14:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="apiErrorBlankPhoneType3()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorBlankPhoneType3" duration-ms="57" started-at="2016-11-29T14:55:50Z" finished-at="2016-11-29T14:55:50Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [contact.phone[2].phoneType] but found [contact.phone[2].type]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [contact.phone[2].phoneType] but found [contact.phone[2].type]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneType3(ApiCustomerPost.java:521)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorBlankPhoneType3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="2" started-at="2016-11-29T14:55:50Z" finished-at="2016-11-29T14:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="67" started-at="2016-11-29T14:55:50Z" finished-at="2016-11-29T14:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorBlankPostalCode()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorBlankPostalCode" duration-ms="35" started-at="2016-11-29T14:55:50Z" finished-at="2016-11-29T14:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorBlankPostalCode -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="2" started-at="2016-11-29T14:55:50Z" finished-at="2016-11-29T14:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="65" started-at="2016-11-29T14:55:50Z" finished-at="2016-11-29T14:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorBlankState()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorBlankState" duration-ms="79" started-at="2016-11-29T14:55:50Z" finished-at="2016-11-29T14:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorBlankState -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="3" started-at="2016-11-29T14:55:50Z" finished-at="2016-11-29T14:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="68" started-at="2016-11-29T14:55:50Z" finished-at="2016-11-29T14:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorBlankUserName()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorBlankUserName" duration-ms="41" started-at="2016-11-29T14:55:50Z" finished-at="2016-11-29T14:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorBlankUserName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="3" started-at="2016-11-29T14:55:50Z" finished-at="2016-11-29T14:55:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="69" started-at="2016-11-29T14:55:50Z" finished-at="2016-11-29T14:55:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorContainConsecutiveCharacterPassword()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorContainConsecutiveCharacterPassword" duration-ms="1250" started-at="2016-11-29T14:55:51Z" finished-at="2016-11-29T14:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorContainConsecutiveCharacterPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="7" started-at="2016-11-29T14:55:52Z" finished-at="2016-11-29T14:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="84" started-at="2016-11-29T14:55:52Z" finished-at="2016-11-29T14:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="apiErrorContainConsecutiveCharacterPin()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorContainConsecutiveCharacterPin" duration-ms="85" started-at="2016-11-29T14:55:52Z" finished-at="2016-11-29T14:55:52Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainConsecutiveCharacterPin(ApiCustomerPost.java:794)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorContainConsecutiveCharacterPin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="9" started-at="2016-11-29T14:55:52Z" finished-at="2016-11-29T14:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="84" started-at="2016-11-29T14:55:52Z" finished-at="2016-11-29T14:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="apiErrorContainContigousCharacterPin()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorContainContigousCharacterPin" duration-ms="71" started-at="2016-11-29T14:55:52Z" finished-at="2016-11-29T14:55:52Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainContigousCharacterPin(ApiCustomerPost.java:804)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorContainContigousCharacterPin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="3" started-at="2016-11-29T14:55:52Z" finished-at="2016-11-29T14:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="67" started-at="2016-11-29T14:55:52Z" finished-at="2016-11-29T14:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="apiErrorContainDictionaryPassword()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorContainDictionaryPassword" duration-ms="70" started-at="2016-11-29T14:55:52Z" finished-at="2016-11-29T14:55:52Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainDictionaryPassword(ApiCustomerPost.java:773)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorContainDictionaryPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="3" started-at="2016-11-29T14:55:52Z" finished-at="2016-11-29T14:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="69" started-at="2016-11-29T14:55:52Z" finished-at="2016-11-29T14:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="apiErrorContainDigitsPassword()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorContainDigitsPassword" duration-ms="76" started-at="2016-11-29T14:55:52Z" finished-at="2016-11-29T14:55:52Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainDigitsPassword(ApiCustomerPost.java:733)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorContainDigitsPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="48" started-at="2016-11-29T14:55:52Z" finished-at="2016-11-29T14:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="78" started-at="2016-11-29T14:55:52Z" finished-at="2016-11-29T14:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="apiErrorContainSpecialCharactersPassword()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorContainSpecialCharactersPassword" duration-ms="73" started-at="2016-11-29T14:55:53Z" finished-at="2016-11-29T14:55:53Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainSpecialCharactersPassword(ApiCustomerPost.java:763)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorContainSpecialCharactersPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="4" started-at="2016-11-29T14:55:53Z" finished-at="2016-11-29T14:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="65" started-at="2016-11-29T14:55:53Z" finished-at="2016-11-29T14:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorContainUsernamePassword()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorContainUsernamePassword" duration-ms="35" started-at="2016-11-29T14:55:53Z" finished-at="2016-11-29T14:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorContainUsernamePassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="3" started-at="2016-11-29T14:55:53Z" finished-at="2016-11-29T14:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="70" started-at="2016-11-29T14:55:53Z" finished-at="2016-11-29T14:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorContainUsernamePin()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorContainUsernamePin" duration-ms="42" started-at="2016-11-29T14:55:53Z" finished-at="2016-11-29T14:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorContainUsernamePin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="5" started-at="2016-11-29T14:55:53Z" finished-at="2016-11-29T14:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="80" started-at="2016-11-29T14:55:53Z" finished-at="2016-11-29T14:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorDuplicateUserName()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorDuplicateUserName" duration-ms="134" started-at="2016-11-29T14:55:53Z" finished-at="2016-11-29T14:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorDuplicateUserName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="16" started-at="2016-11-29T14:55:53Z" finished-at="2016-11-29T14:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="71" started-at="2016-11-29T14:55:53Z" finished-at="2016-11-29T14:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorInvalidContactType()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorInvalidContactType" duration-ms="55" started-at="2016-11-29T14:55:53Z" finished-at="2016-11-29T14:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorInvalidContactType -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="5" started-at="2016-11-29T14:55:53Z" finished-at="2016-11-29T14:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="88" started-at="2016-11-29T14:55:53Z" finished-at="2016-11-29T14:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorInvalidCountry()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorInvalidCountry" duration-ms="30" started-at="2016-11-29T14:55:53Z" finished-at="2016-11-29T14:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorInvalidCountry -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="4" started-at="2016-11-29T14:55:53Z" finished-at="2016-11-29T14:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="70" started-at="2016-11-29T14:55:53Z" finished-at="2016-11-29T14:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorInvalidCustomerType()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorInvalidCustomerType" duration-ms="36" started-at="2016-11-29T14:55:53Z" finished-at="2016-11-29T14:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorInvalidCustomerType -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="8" started-at="2016-11-29T14:55:53Z" finished-at="2016-11-29T14:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="77" started-at="2016-11-29T14:55:53Z" finished-at="2016-11-29T14:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorInvalidFormatEmail()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorInvalidFormatEmail" duration-ms="43" started-at="2016-11-29T14:55:54Z" finished-at="2016-11-29T14:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorInvalidFormatEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="5" started-at="2016-11-29T14:55:54Z" finished-at="2016-11-29T14:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="81" started-at="2016-11-29T14:55:54Z" finished-at="2016-11-29T14:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorInvalidPersonalIdType()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorInvalidPersonalIdType" duration-ms="39" started-at="2016-11-29T14:55:54Z" finished-at="2016-11-29T14:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorInvalidPersonalIdType -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="4" started-at="2016-11-29T14:55:54Z" finished-at="2016-11-29T14:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="97" started-at="2016-11-29T14:55:54Z" finished-at="2016-11-29T14:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="apiErrorInvalidPhoneNumber()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorInvalidPhoneNumber" duration-ms="26" started-at="2016-11-29T14:55:54Z" finished-at="2016-11-29T14:55:54Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [contact.phone[0].phoneNumber] but found [contact.phone[0].number]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [contact.phone[0].phoneNumber] but found [contact.phone[0].number]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneNumber(ApiCustomerPost.java:430)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorInvalidPhoneNumber -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="5" started-at="2016-11-29T14:55:54Z" finished-at="2016-11-29T14:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="80" started-at="2016-11-29T14:55:54Z" finished-at="2016-11-29T14:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="apiErrorInvalidPhoneNumber2()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorInvalidPhoneNumber2" duration-ms="71" started-at="2016-11-29T14:55:54Z" finished-at="2016-11-29T14:55:54Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [contact.phone[1].phoneNumber] but found [contact.phone[1].number]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [contact.phone[1].phoneNumber] but found [contact.phone[1].number]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneNumber2(ApiCustomerPost.java:470)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorInvalidPhoneNumber2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="5" started-at="2016-11-29T14:55:54Z" finished-at="2016-11-29T14:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="67" started-at="2016-11-29T14:55:54Z" finished-at="2016-11-29T14:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="apiErrorInvalidPhoneNumber3()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorInvalidPhoneNumber3" duration-ms="25" started-at="2016-11-29T14:55:54Z" finished-at="2016-11-29T14:55:54Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [contact.phone[2].phoneNumber] but found [contact.phone[2].number]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [contact.phone[2].phoneNumber] but found [contact.phone[2].number]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneNumber3(ApiCustomerPost.java:510)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorInvalidPhoneNumber3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="5" started-at="2016-11-29T14:55:54Z" finished-at="2016-11-29T14:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="89" started-at="2016-11-29T14:55:54Z" finished-at="2016-11-29T14:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="apiErrorInvalidPhoneType()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorInvalidPhoneType" duration-ms="37" started-at="2016-11-29T14:55:54Z" finished-at="2016-11-29T14:55:54Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [contact.phone[0].phoneType] but found [contact.phone[0].type]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [contact.phone[0].phoneType] but found [contact.phone[0].type]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneType(ApiCustomerPost.java:450)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorInvalidPhoneType -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="64" started-at="2016-11-29T14:55:54Z" finished-at="2016-11-29T14:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="136" started-at="2016-11-29T14:55:54Z" finished-at="2016-11-29T14:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="apiErrorInvalidPhoneType2()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorInvalidPhoneType2" duration-ms="46" started-at="2016-11-29T14:55:54Z" finished-at="2016-11-29T14:55:54Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [contact.phone[1].phoneType] but found [contact.phone[1].type]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [contact.phone[1].phoneType] but found [contact.phone[1].type]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneType2(ApiCustomerPost.java:491)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorInvalidPhoneType2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="6" started-at="2016-11-29T14:55:54Z" finished-at="2016-11-29T14:55:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="69" started-at="2016-11-29T14:55:54Z" finished-at="2016-11-29T14:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="apiErrorInvalidPhoneType3()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorInvalidPhoneType3" duration-ms="81" started-at="2016-11-29T14:55:55Z" finished-at="2016-11-29T14:55:55Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [contact.phone[2].phoneType] but found [contact.phone[2].type]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [contact.phone[2].phoneType] but found [contact.phone[2].type]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneType3(ApiCustomerPost.java:532)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorInvalidPhoneType3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="8" started-at="2016-11-29T14:55:55Z" finished-at="2016-11-29T14:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="80" started-at="2016-11-29T14:55:55Z" finished-at="2016-11-29T14:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorInvalidPostalCode()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorInvalidPostalCode" duration-ms="66" started-at="2016-11-29T14:55:55Z" finished-at="2016-11-29T14:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorInvalidPostalCode -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="10" started-at="2016-11-29T14:55:55Z" finished-at="2016-11-29T14:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="74" started-at="2016-11-29T14:55:55Z" finished-at="2016-11-29T14:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorInvalidState()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorInvalidState" duration-ms="32" started-at="2016-11-29T14:55:55Z" finished-at="2016-11-29T14:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorInvalidState -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="5" started-at="2016-11-29T14:55:55Z" finished-at="2016-11-29T14:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="72" started-at="2016-11-29T14:55:55Z" finished-at="2016-11-29T14:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorInvalidSuffixId()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorInvalidSuffixId" duration-ms="38" started-at="2016-11-29T14:55:55Z" finished-at="2016-11-29T14:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorInvalidSuffixId -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="6" started-at="2016-11-29T14:55:55Z" finished-at="2016-11-29T14:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="74" started-at="2016-11-29T14:55:55Z" finished-at="2016-11-29T14:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorInvalidUserName()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorInvalidUserName" duration-ms="116" started-at="2016-11-29T14:55:55Z" finished-at="2016-11-29T14:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorInvalidUserName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="6" started-at="2016-11-29T14:55:55Z" finished-at="2016-11-29T14:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="71" started-at="2016-11-29T14:55:55Z" finished-at="2016-11-29T14:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorMaxLengthAddress()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorMaxLengthAddress" duration-ms="31" started-at="2016-11-29T14:55:55Z" finished-at="2016-11-29T14:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorMaxLengthAddress -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="4" started-at="2016-11-29T14:55:55Z" finished-at="2016-11-29T14:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="74" started-at="2016-11-29T14:55:55Z" finished-at="2016-11-29T14:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorMaxLengthAddress2()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorMaxLengthAddress2" duration-ms="52" started-at="2016-11-29T14:55:55Z" finished-at="2016-11-29T14:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorMaxLengthAddress2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="13" started-at="2016-11-29T14:55:55Z" finished-at="2016-11-29T14:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="106" started-at="2016-11-29T14:55:55Z" finished-at="2016-11-29T14:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorMaxLengthCity()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorMaxLengthCity" duration-ms="47" started-at="2016-11-29T14:55:56Z" finished-at="2016-11-29T14:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorMaxLengthCity -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="12" started-at="2016-11-29T14:55:56Z" finished-at="2016-11-29T14:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="75" started-at="2016-11-29T14:55:56Z" finished-at="2016-11-29T14:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorMaxLengthContactFirstName()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorMaxLengthContactFirstName" duration-ms="37" started-at="2016-11-29T14:55:56Z" finished-at="2016-11-29T14:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorMaxLengthContactFirstName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="8" started-at="2016-11-29T14:55:56Z" finished-at="2016-11-29T14:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="83" started-at="2016-11-29T14:55:56Z" finished-at="2016-11-29T14:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorMaxLengthContactLastName()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorMaxLengthContactLastName" duration-ms="31" started-at="2016-11-29T14:55:56Z" finished-at="2016-11-29T14:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorMaxLengthContactLastName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="7" started-at="2016-11-29T14:55:56Z" finished-at="2016-11-29T14:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="74" started-at="2016-11-29T14:55:56Z" finished-at="2016-11-29T14:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorMaxLengthContactMiddleName()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorMaxLengthContactMiddleName" duration-ms="34" started-at="2016-11-29T14:55:56Z" finished-at="2016-11-29T14:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorMaxLengthContactMiddleName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="6" started-at="2016-11-29T14:55:56Z" finished-at="2016-11-29T14:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="72" started-at="2016-11-29T14:55:56Z" finished-at="2016-11-29T14:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="apiErrorMaxLengthPassword()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorMaxLengthPassword" duration-ms="63" started-at="2016-11-29T14:55:56Z" finished-at="2016-11-29T14:55:56Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorMaxLengthPassword(ApiCustomerPost.java:723)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorMaxLengthPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="8" started-at="2016-11-29T14:55:56Z" finished-at="2016-11-29T14:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="75" started-at="2016-11-29T14:55:56Z" finished-at="2016-11-29T14:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorMaxLengthPersonalId()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorMaxLengthPersonalId" duration-ms="33" started-at="2016-11-29T14:55:56Z" finished-at="2016-11-29T14:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorMaxLengthPersonalId -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="5" started-at="2016-11-29T14:55:56Z" finished-at="2016-11-29T14:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="69" started-at="2016-11-29T14:55:56Z" finished-at="2016-11-29T14:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorMaxLengthUserName()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorMaxLengthUserName" duration-ms="103" started-at="2016-11-29T14:55:56Z" finished-at="2016-11-29T14:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorMaxLengthUserName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="9" started-at="2016-11-29T14:55:56Z" finished-at="2016-11-29T14:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="78" started-at="2016-11-29T14:55:56Z" finished-at="2016-11-29T14:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorMaximumLengthEmail()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorMaximumLengthEmail" duration-ms="40" started-at="2016-11-29T14:55:56Z" finished-at="2016-11-29T14:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorMaximumLengthEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="9" started-at="2016-11-29T14:55:57Z" finished-at="2016-11-29T14:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="77" started-at="2016-11-29T14:55:57Z" finished-at="2016-11-29T14:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorMinLengthPassword()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorMinLengthPassword" duration-ms="42" started-at="2016-11-29T14:55:57Z" finished-at="2016-11-29T14:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorMinLengthPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="6" started-at="2016-11-29T14:55:57Z" finished-at="2016-11-29T14:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="99" started-at="2016-11-29T14:55:57Z" finished-at="2016-11-29T14:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="apiErrorMixCasesPassword()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorMixCasesPassword" duration-ms="70" started-at="2016-11-29T14:55:57Z" finished-at="2016-11-29T14:55:57Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorMixCasesPassword(ApiCustomerPost.java:743)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorMixCasesPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="6" started-at="2016-11-29T14:55:57Z" finished-at="2016-11-29T14:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="104" started-at="2016-11-29T14:55:57Z" finished-at="2016-11-29T14:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorMustContainLettersPassword()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorMustContainLettersPassword" duration-ms="55" started-at="2016-11-29T14:55:57Z" finished-at="2016-11-29T14:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorMustContainLettersPassword -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="10" started-at="2016-11-29T14:55:57Z" finished-at="2016-11-29T14:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="77" started-at="2016-11-29T14:55:57Z" finished-at="2016-11-29T14:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorNonNumericPin()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorNonNumericPin" duration-ms="60" started-at="2016-11-29T14:55:57Z" finished-at="2016-11-29T14:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorNonNumericPin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="5" started-at="2016-11-29T14:55:57Z" finished-at="2016-11-29T14:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="70" started-at="2016-11-29T14:55:57Z" finished-at="2016-11-29T14:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorSecurityAnswerBlank()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorSecurityAnswerBlank" duration-ms="33" started-at="2016-11-29T14:55:57Z" finished-at="2016-11-29T14:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorSecurityAnswerBlank -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="7" started-at="2016-11-29T14:55:57Z" finished-at="2016-11-29T14:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="70" started-at="2016-11-29T14:55:57Z" finished-at="2016-11-29T14:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorSecurityAnswerMaxLength()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorSecurityAnswerMaxLength" duration-ms="1268" started-at="2016-11-29T14:55:57Z" finished-at="2016-11-29T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorSecurityAnswerMaxLength -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="12" started-at="2016-11-29T14:55:59Z" finished-at="2016-11-29T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="89" started-at="2016-11-29T14:55:59Z" finished-at="2016-11-29T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorSecurityQuestionBlank()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorSecurityQuestionBlank" duration-ms="44" started-at="2016-11-29T14:55:59Z" finished-at="2016-11-29T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorSecurityQuestionBlank -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="9" started-at="2016-11-29T14:55:59Z" finished-at="2016-11-29T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="87" started-at="2016-11-29T14:55:59Z" finished-at="2016-11-29T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorSecurityQuestionInvalid()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorSecurityQuestionInvalid" duration-ms="42" started-at="2016-11-29T14:55:59Z" finished-at="2016-11-29T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorSecurityQuestionInvalid -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="10" started-at="2016-11-29T14:55:59Z" finished-at="2016-11-29T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="71" started-at="2016-11-29T14:55:59Z" finished-at="2016-11-29T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorSpecialCharactersEmail()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorSpecialCharactersEmail" duration-ms="31" started-at="2016-11-29T14:55:59Z" finished-at="2016-11-29T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorSpecialCharactersEmail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="18" started-at="2016-11-29T14:55:59Z" finished-at="2016-11-29T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="70" started-at="2016-11-29T14:55:59Z" finished-at="2016-11-29T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorSpecialCharactersUserName()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorSpecialCharactersUserName" duration-ms="27" started-at="2016-11-29T14:55:59Z" finished-at="2016-11-29T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorSpecialCharactersUserName -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="10" started-at="2016-11-29T14:55:59Z" finished-at="2016-11-29T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="86" started-at="2016-11-29T14:55:59Z" finished-at="2016-11-29T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorTooLongPin()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorTooLongPin" duration-ms="48" started-at="2016-11-29T14:55:59Z" finished-at="2016-11-29T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorTooLongPin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="8" started-at="2016-11-29T14:55:59Z" finished-at="2016-11-29T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="70" started-at="2016-11-29T14:55:59Z" finished-at="2016-11-29T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiErrorTooSmallPin()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiErrorTooSmallPin" duration-ms="42" started-at="2016-11-29T14:55:59Z" finished-at="2016-11-29T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiErrorTooSmallPin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="6" started-at="2016-11-29T14:55:59Z" finished-at="2016-11-29T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="71" started-at="2016-11-29T14:55:59Z" finished-at="2016-11-29T14:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiPostSuccess()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiPostSuccess" duration-ms="69" started-at="2016-11-29T14:55:59Z" finished-at="2016-11-29T14:56:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiPostSuccess -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="6" started-at="2016-11-29T14:56:00Z" finished-at="2016-11-29T14:56:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="69" started-at="2016-11-29T14:56:00Z" finished-at="2016-11-29T14:56:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiGetCustomerInfo()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiGetCustomerInfo" duration-ms="240" started-at="2016-11-29T14:56:00Z" finished-at="2016-11-29T14:56:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiGetCustomerInfo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="39" started-at="2016-11-29T14:56:00Z" finished-at="2016-11-29T14:56:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="setUp" is-config="true" duration-ms="83" started-at="2016-11-29T14:56:00Z" finished-at="2016-11-29T14:56:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="apiGetSuccess()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="apiGetSuccess" duration-ms="28" started-at="2016-11-29T14:56:00Z" finished-at="2016-11-29T14:56:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiGetSuccess -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a]" name="tearDown" is-config="true" duration-ms="9" started-at="2016-11-29T14:56:00Z" finished-at="2016-11-29T14:56:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationFramework.NextWave2RestApi.ApiCustomerPost -->
+    </test> <!-- ApiTest -->
+  </suite> <!-- Test2 - Suite -->
+</testng-results>

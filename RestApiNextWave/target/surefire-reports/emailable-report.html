@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">ApiTest</td><td class="numi">13</td><td class="numi">13</td><td class="numi">0</td><td class="numi_attn">7</td><td class="numi">3.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">ApiTest &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="7">automationFramework.TestCases.ApiCustomerPost</td><td><a href="#m1"><b>apiErrorAddressId</b>  </a></td><td class="numi">1</td><td>1478025410763</td><td class="numi">1592</td></tr><tr class="failedodd"><td><a href="#m2"><b>apiErrorBlankAddress</b>  </a></td><td class="numi">1</td><td>1478025412377</td><td class="numi">43</td></tr><tr class="failedodd"><td><a href="#m3"><b>apiErrorBlankCity</b>  </a></td><td class="numi">1</td><td>1478025412437</td><td class="numi">31</td></tr><tr class="failedodd"><td><a href="#m4"><b>apiErrorBlankCountry</b>  </a></td><td class="numi">1</td><td>1478025412811</td><td class="numi">29</td></tr><tr class="failedodd"><td><a href="#m5"><b>apiErrorInvalidContactType</b>  </a></td><td class="numi">1</td><td>1478025412951</td><td class="numi">45</td></tr><tr class="failedodd"><td><a href="#m6"><b>apiErrorInvalidCustomerType</b>  </a></td><td class="numi">1</td><td>1478025413011</td><td class="numi">29</td></tr><tr class="failedodd"><td><a href="#m7"><b>apiErrorInvalidSuffixId</b>  </a></td><td class="numi">1</td><td>1478025413056</td><td class="numi">54</td></tr>
+<tr><th colspan="4">ApiTest &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="13">automationFramework.TestCases.ApiCustomerPost</td><td><a href="#m8"><b>apiErrorBlankContact</b>  </a></td><td class="numi">1</td><td>1478025412490</td><td class="numi">32</td></tr><tr class="passedodd"><td><a href="#m9"><b>apiErrorBlankContactFirstName</b>  </a></td><td class="numi">1</td><td>1478025412571</td><td class="numi">52</td></tr><tr class="passedodd"><td><a href="#m10"><b>apiErrorBlankContactLastName</b>  </a></td><td class="numi">1</td><td>1478025412644</td><td class="numi">32</td></tr><tr class="passedodd"><td><a href="#m11"><b>apiErrorBlankContactName</b>  </a></td><td class="numi">1</td><td>1478025412693</td><td class="numi">36</td></tr><tr class="passedodd"><td><a href="#m12"><b>apiErrorBlankContactType</b>  </a></td><td class="numi">1</td><td>1478025412746</td><td class="numi">39</td></tr><tr class="passedodd"><td><a href="#m13"><b>apiErrorBlankCustomerType</b>  </a></td><td class="numi">1</td><td>1478025412856</td><td class="numi">75</td></tr><tr class="passedodd"><td><a href="#m14"><b>apiErrorMaxLengthAddress</b>  </a></td><td class="numi">1</td><td>1478025413122</td><td class="numi">30</td></tr><tr class="passedodd"><td><a href="#m15"><b>apiErrorMaxLengthAddress2</b>  </a></td><td class="numi">1</td><td>1478025413167</td><td class="numi">30</td></tr><tr class="passedodd"><td><a href="#m16"><b>apiErrorMaxLengthCity</b>  </a></td><td class="numi">1</td><td>1478025413209</td><td class="numi">47</td></tr><tr class="passedodd"><td><a href="#m17"><b>apiErrorMaxLengthContactFirstName</b>  </a></td><td class="numi">1</td><td>1478025413270</td><td class="numi">54</td></tr><tr class="passedodd"><td><a href="#m18"><b>apiErrorMaxLengthContactLastName</b>  </a></td><td class="numi">1</td><td>1478025413339</td><td class="numi">41</td></tr><tr class="passedodd"><td><a href="#m19"><b>apiErrorMaxLengthContactMiddleName</b>  </a></td><td class="numi">1</td><td>1478025413403</td><td class="numi">30</td></tr><tr class="passedodd"><td><a href="#m20"><b>apiPostSuccess</b>  </a></td><td class="numi">1</td><td>1478025413445</td><td class="numi">55</td></tr>
+</table>
+<h1>ApiTest</h1>
+<h2 id="m1">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankCity</h2>
+<div style="padding-left:3em">
+<p>expected [If address is provided, city is required.] but found [Field is blank.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:374)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankCity(ApiCustomerPost.java:233)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">automationFramework.TestCases.ApiCustomerPost:apiErrorInvalidCustomerType</h2>
+<div style="padding-left:3em">
+<p>expected [Invalid customer type.] but found [Invalid value.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:374)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorInvalidCustomerType(ApiCustomerPost.java:65)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankAddress</h2>
+<div style="padding-left:3em">
+<p>expected [If address is provided, address1 is required.] but found [Field is blank.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:374)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankAddress(ApiCustomerPost.java:198)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankCountry</h2>
+<div style="padding-left:3em">
+<p>expected [If address is provided, country is required.] but found [Field is blank.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:374)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankCountry(ApiCustomerPost.java:255)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">automationFramework.TestCases.ApiCustomerPost:apiErrorAddressId</h2>
+<div style="padding-left:3em">
+<p>null</p>
+automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:372)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorAddressId(ApiCustomerPost.java:187)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">automationFramework.TestCases.ApiCustomerPost:apiErrorInvalidContactType</h2>
+<div style="padding-left:3em">
+<p>expected [Invalid contact type.] but found [Invalid value.]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertEquals(Assert.java:123)
+<br/>at org.testng.Assert.assertEquals(Assert.java:176)
+<br/>at org.testng.Assert.assertEquals(Assert.java:186)
+<br/>at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:374)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorInvalidContactType(ApiCustomerPost.java:86)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">automationFramework.TestCases.ApiCustomerPost:apiErrorInvalidSuffixId</h2>
+<div style="padding-left:3em">
+<p>null</p>
+automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:372)
+<br/>at automationFramework.TestCases.ApiCustomerPost.apiErrorInvalidSuffixId(ApiCustomerPost.java:176)
+<br/>34 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankContactName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankContactType</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankCustomerType</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">automationFramework.TestCases.ApiCustomerPost:apiPostSuccess</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">automationFramework.TestCases.ApiCustomerPost:apiErrorMaxLengthContactLastName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankContactFirstName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">automationFramework.TestCases.ApiCustomerPost:apiErrorMaxLengthCity</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">automationFramework.TestCases.ApiCustomerPost:apiErrorMaxLengthContactMiddleName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankContact</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">automationFramework.TestCases.ApiCustomerPost:apiErrorMaxLengthAddress2</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">automationFramework.TestCases.ApiCustomerPost:apiErrorMaxLengthContactFirstName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">automationFramework.TestCases.ApiCustomerPost:apiErrorBlankContactLastName</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">automationFramework.TestCases.ApiCustomerPost:apiErrorMaxLengthAddress</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

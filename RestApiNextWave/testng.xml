@@ -1,0 +1,11 @@
+<suite name="Test2 - Suite" >
+	<test name ="ApiTest">
+		<classes>
+		      <class name="automationFramework.NextWave2RestApi.ApiCustomerPost" />
+		</classes>
+	</test>
+		<listeners>
+       <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+</suite>

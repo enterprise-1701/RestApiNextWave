@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ApiTest"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="1.206">
+  <properties />
+            <testcase name="apiGet" time="1.206" classname="automationFramework.NextWave2RestApi.ApiCustomerGet2">
+                <failure type="com.fasterxml.jackson.databind.JsonMappingException"
+                  message="Can not deserialize instance of java.lang.String out of START_OBJECT token
+ at [Source: java.io.StringReader@61a5b4ae; line: 1, column: 2] (through reference chain: automationFramework.NextWave2RestApi.CustomerInfo[&quot;customerInfo&quot;])"
+              >
+<![CDATA[com.fasterxml.jackson.databind.JsonMappingException: Can not deserialize instance of java.lang.String out of START_OBJECT token
+ at [Source: java.io.StringReader@61a5b4ae; line: 1, column: 2] (through reference chain: automationFramework.NextWave2RestApi.CustomerInfo["customerInfo"])
+  com.fasterxml.jackson.databind.JsonMappingException.from(JsonMappingException.java:164)
+  com.fasterxml.jackson.databind.DeserializationContext.mappingException(DeserializationContext.java:575)
+  com.fasterxml.jackson.databind.deser.std.StringDeserializer.deserialize(StringDeserializer.java:46)
+  com.fasterxml.jackson.databind.deser.std.StringDeserializer.deserialize(StringDeserializer.java:11)
+  com.fasterxml.jackson.databind.deser.SettableBeanProperty.deserialize(SettableBeanProperty.java:464)
+  com.fasterxml.jackson.databind.deser.impl.MethodProperty.deserializeAndSet(MethodProperty.java:98)
+  com.fasterxml.jackson.databind.deser.BeanDeserializer.deserializeFromObject(BeanDeserializer.java:295)
+  com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:121)
+  com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:2888)
+  com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:2048)
+  com.fasterxml.jackson.databind.ObjectMapper$readValue$0.call(Unknown Source)
+  org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:110)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:130)
+  com.jayway.restassured.internal.path.json.mapping.JsonPathJackson2ObjectDeserializer.deserialize(JsonPathJackson2ObjectDeserializer.groovy:43)
+  com.jayway.restassured.path.json.mapping.JsonPathObjectDeserializer$deserialize.call(Unknown Source)
+  org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:110)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:122)
+  com.jayway.restassured.internal.mapping.Jackson2Mapper.deserialize(Jackson2Mapper.groovy:60)
+  com.jayway.restassured.mapper.ObjectMapper$deserialize.call(Unknown Source)
+  org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:110)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:122)
+  com.jayway.restassured.internal.mapping.ObjectMapping.parseWithJackson2(ObjectMapping.groovy:202)
+  com.jayway.restassured.internal.mapping.ObjectMapping$parseWithJackson2$0.callStatic(Unknown Source)
+  org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:53)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:191)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:211)
+  com.jayway.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:55)
+  com.jayway.restassured.internal.mapping.ObjectMapping$deserialize.call(Unknown Source)
+  org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:45)
+  org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:110)
+  com.jayway.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:216)
+  com.jayway.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:159)
+  automationFramework.NextWave2RestApi.ApiCustomerGet2.sendAPIRequest(ApiCustomerGet2.java:69)
+  automationFramework.NextWave2RestApi.ApiCustomerGet2.apiGet(ApiCustomerGet2.java:54)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+  org.testng.SuiteRunner.run(SuiteRunner.java:240)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+  org.testng.TestNG.run(TestNG.java:1031)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

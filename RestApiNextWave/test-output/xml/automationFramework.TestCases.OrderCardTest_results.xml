@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ChromeTest"
+           tests="1"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="2.900">
+  <properties />
+            <testcase name="signIn" time="2.900" classname="automationFramework.TestCases.OrderCardTest">
+                <failure type="com.gargoylesoftware.htmlunit.ScriptException"
+                  message="TypeError: Cannot find function bind in object 
+function call() {
+    [native code]
+}
+. (http://localhost:8801/js/es6-shim.min.js#10)"
+              >
+<![CDATA[com.gargoylesoftware.htmlunit.ScriptException: TypeError: Cannot find function bind in object 
+function call() {
+    [native code]
+}
+. (http://localhost:8801/js/es6-shim.min.js#10)
+  com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:705)
+  net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:620)
+  net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:513)
+  com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.execute(JavaScriptEngine.java:591)
+  com.gargoylesoftware.htmlunit.html.HtmlPage.loadExternalJavaScriptFile(HtmlPage.java:1078)
+  com.gargoylesoftware.htmlunit.html.HtmlScript.executeScriptIfNeeded(HtmlScript.java:393)
+  com.gargoylesoftware.htmlunit.html.HtmlScript$3.execute(HtmlScript.java:268)
+  com.gargoylesoftware.htmlunit.html.HtmlScript.onAllChildrenAddedToPage(HtmlScript.java:288)
+  com.gargoylesoftware.htmlunit.html.HTMLParser$HtmlUnitDOMBuilder.endElement(HTMLParser.java:741)
+  org.apache.xerces.parsers.AbstractSAXParser.endElement(Unknown Source)
+  com.gargoylesoftware.htmlunit.html.HTMLParser$HtmlUnitDOMBuilder.endElement(HTMLParser.java:701)
+  org.cyberneko.html.HTMLTagBalancer.callEndElement(HTMLTagBalancer.java:1170)
+  org.cyberneko.html.HTMLTagBalancer.endElement(HTMLTagBalancer.java:1072)
+  org.cyberneko.html.filters.DefaultFilter.endElement(DefaultFilter.java:206)
+  org.cyberneko.html.filters.NamespaceBinder.endElement(NamespaceBinder.java:330)
+  org.cyberneko.html.HTMLScanner$ContentScanner.scanEndElement(HTMLScanner.java:3126)
+  org.cyberneko.html.HTMLScanner$ContentScanner.scan(HTMLScanner.java:2093)
+  org.cyberneko.html.HTMLScanner.scanDocument(HTMLScanner.java:920)
+  org.cyberneko.html.HTMLConfiguration.parse(HTMLConfiguration.java:499)
+  org.cyberneko.html.HTMLConfiguration.parse(HTMLConfiguration.java:452)
+  org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+  com.gargoylesoftware.htmlunit.html.HTMLParser$HtmlUnitDOMBuilder.parse(HTMLParser.java:965)
+  com.gargoylesoftware.htmlunit.html.HTMLParser.parse(HTMLParser.java:247)
+  com.gargoylesoftware.htmlunit.html.HTMLParser.parseHtml(HTMLParser.java:193)
+  com.gargoylesoftware.htmlunit.DefaultPageCreator.createHtmlPage(DefaultPageCreator.java:268)
+  com.gargoylesoftware.htmlunit.DefaultPageCreator.createPage(DefaultPageCreator.java:156)
+  com.gargoylesoftware.htmlunit.WebClient.loadWebResponseInto(WebClient.java:468)
+  com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:342)
+  com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:407)
+  com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:392)
+  automationFramework.PageObjects.HomePage.getStatusCode(HomePage.java:51)
+  automationFramework.PageObjects.HomePage.getLandingPage(HomePage.java:37)
+  automationFramework.TestCases.OrderCardTest.signIn(OrderCardTest.java:48)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+  org.testng.SuiteRunner.run(SuiteRunner.java:240)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+  org.testng.TestNG.run(TestNG.java:1031)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+Caused by: net.sourceforge.htmlunit.corejs.javascript.EcmaError: TypeError: Cannot find function bind in object 
+function call() {
+    [native code]
+}
+. (http://localhost:8801/js/es6-shim.min.js#10)
+  net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3629)
+  net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3613)
+  net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.typeError(ScriptRuntime.java:3634)
+  net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.typeError2(ScriptRuntime.java:3650)
+  net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.notFunctionError(ScriptRuntime.java:3714)
+  net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.getPropFunctionAndThisHelper(ScriptRuntime.java:2233)
+  net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.getPropFunctionAndThis(ScriptRuntime.java:2215)
+  net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpretLoop(Interpreter.java:1333)
+  net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpret(Interpreter.java:798)
+  net.sourceforge.htmlunit.corejs.javascript.InterpretedFunction.call(InterpretedFunction.java:105)
+  net.sourceforge.htmlunit.corejs.javascript.ContextFactory.doTopCall(ContextFactory.java:411)
+  com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.doTopCall(HtmlUnitContextFactory.java:309)
+  net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3057)
+  net.sourceforge.htmlunit.corejs.javascript.InterpretedFunction.exec(InterpretedFunction.java:115)
+  com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$3.doRun(JavaScriptEngine.java:582)
+  com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:690)
+  net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:620)
+  net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:513)
+  com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.execute(JavaScriptEngine.java:591)
+  com.gargoylesoftware.htmlunit.html.HtmlPage.loadExternalJavaScriptFile(HtmlPage.java:1078)
+  com.gargoylesoftware.htmlunit.html.HtmlScript.executeScriptIfNeeded(HtmlScript.java:393)
+  com.gargoylesoftware.htmlunit.html.HtmlScript$3.execute(HtmlScript.java:268)
+  com.gargoylesoftware.htmlunit.html.HtmlScript.onAllChildrenAddedToPage(HtmlScript.java:288)
+  com.gargoylesoftware.htmlunit.html.HTMLParser$HtmlUnitDOMBuilder.endElement(HTMLParser.java:741)
+  org.apache.xerces.parsers.AbstractSAXParser.endElement(Unknown Source)
+  com.gargoylesoftware.htmlunit.html.HTMLParser$HtmlUnitDOMBuilder.endElement(HTMLParser.java:701)
+  org.cyberneko.html.HTMLTagBalancer.callEndElement(HTMLTagBalancer.java:1170)
+  org.cyberneko.html.HTMLTagBalancer.endElement(HTMLTagBalancer.java:1072)
+  org.cyberneko.html.filters.DefaultFilter.endElement(DefaultFilter.java:206)
+  org.cyberneko.html.filters.NamespaceBinder.endElement(NamespaceBinder.java:330)
+  org.cyberneko.html.HTMLScanner$ContentScanner.scanEndElement(HTMLScanner.java:3126)
+  org.cyberneko.html.HTMLScanner$ContentScanner.scan(HTMLScanner.java:2093)
+  org.cyberneko.html.HTMLScanner.scanDocument(HTMLScanner.java:920)
+  org.cyberneko.html.HTMLConfiguration.parse(HTMLConfiguration.java:499)
+  org.cyberneko.html.HTMLConfiguration.parse(HTMLConfiguration.java:452)
+  org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+  com.gargoylesoftware.htmlunit.html.HTMLParser$HtmlUnitDOMBuilder.parse(HTMLParser.java:965)
+  com.gargoylesoftware.htmlunit.html.HTMLParser.parse(HTMLParser.java:247)
+  com.gargoylesoftware.htmlunit.html.HTMLParser.parseHtml(HTMLParser.java:193)
+  com.gargoylesoftware.htmlunit.DefaultPageCreator.createHtmlPage(DefaultPageCreator.java:268)
+  com.gargoylesoftware.htmlunit.DefaultPageCreator.createPage(DefaultPageCreator.java:156)
+  com.gargoylesoftware.htmlunit.WebClient.loadWebResponseInto(WebClient.java:468)
+  com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:342)
+  com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:407)
+  com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:392)
+  automationFramework.PageObjects.HomePage.getStatusCode(HomePage.java:51)
+  automationFramework.PageObjects.HomePage.getLandingPage(HomePage.java:37)
+  automationFramework.TestCases.OrderCardTest.signIn(OrderCardTest.java:48)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+  java.lang.reflect.Method.invoke(Unknown Source)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+  org.testng.TestRunner.privateRun(TestRunner.java:767)
+  org.testng.TestRunner.run(TestRunner.java:617)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+  org.testng.SuiteRunner.run(SuiteRunner.java:240)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+  org.testng.TestNG.run(TestNG.java:1031)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

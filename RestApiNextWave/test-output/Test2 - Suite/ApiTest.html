@@ -1,0 +1,1127 @@
+<html>
+<head>
+<title>TestNG:  ApiTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ApiTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>52/20/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Nov 29 14:55:44 PST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>16 seconds (16310 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorAddressId()'><b>apiErrorAddressId</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td><div><pre>java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorAddressId(ApiCustomerPost.java:297)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace622772003", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace622772003'><pre>java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorAddressId(ApiCustomerPost.java:297)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>1</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneNumber()'><b>apiErrorBlankPhoneNumber</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td><div><pre>java.lang.AssertionError: expected [contact.phone[0].phoneNumber] but found [contact.phone[0].number]
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneNumber(ApiCustomerPost.java:420)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1596144422", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1596144422'><pre>java.lang.AssertionError: expected [contact.phone[0].phoneNumber] but found [contact.phone[0].number]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneNumber(ApiCustomerPost.java:420)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneNumber2()'><b>apiErrorBlankPhoneNumber2</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td><div><pre>java.lang.AssertionError: expected [contact.phone[1].phoneNumber] but found [contact.phone[1].number]
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneNumber2(ApiCustomerPost.java:460)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace959834536", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace959834536'><pre>java.lang.AssertionError: expected [contact.phone[1].phoneNumber] but found [contact.phone[1].number]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneNumber2(ApiCustomerPost.java:460)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneNumber3()'><b>apiErrorBlankPhoneNumber3</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td><div><pre>java.lang.AssertionError: expected [contact.phone[2].phoneNumber] but found [contact.phone[2].number]
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneNumber3(ApiCustomerPost.java:500)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace701724503", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace701724503'><pre>java.lang.AssertionError: expected [contact.phone[2].phoneNumber] but found [contact.phone[2].number]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneNumber3(ApiCustomerPost.java:500)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneType()'><b>apiErrorBlankPhoneType</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td><div><pre>java.lang.AssertionError: expected [contact.phone[0].phoneType] but found [contact.phone[0].type]
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneType(ApiCustomerPost.java:440)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2034975583", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2034975583'><pre>java.lang.AssertionError: expected [contact.phone[0].phoneType] but found [contact.phone[0].type]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneType(ApiCustomerPost.java:440)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneType2()'><b>apiErrorBlankPhoneType2</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td><div><pre>java.lang.AssertionError: expected [contact.phone[1].phoneType] but found [contact.phone[1].type]
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneType2(ApiCustomerPost.java:481)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1466413743", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1466413743'><pre>java.lang.AssertionError: expected [contact.phone[1].phoneType] but found [contact.phone[1].type]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneType2(ApiCustomerPost.java:481)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneType3()'><b>apiErrorBlankPhoneType3</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td><div><pre>java.lang.AssertionError: expected [contact.phone[2].phoneType] but found [contact.phone[2].type]
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneType3(ApiCustomerPost.java:521)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1274225913", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1274225913'><pre>java.lang.AssertionError: expected [contact.phone[2].phoneType] but found [contact.phone[2].type]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPhoneType3(ApiCustomerPost.java:521)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainConsecutiveCharacterPin()'><b>apiErrorContainConsecutiveCharacterPin</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td><div><pre>java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainConsecutiveCharacterPin(ApiCustomerPost.java:794)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace606365803", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace606365803'><pre>java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainConsecutiveCharacterPin(ApiCustomerPost.java:794)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainContigousCharacterPin()'><b>apiErrorContainContigousCharacterPin</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td><div><pre>java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainContigousCharacterPin(ApiCustomerPost.java:804)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2008746677", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2008746677'><pre>java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainContigousCharacterPin(ApiCustomerPost.java:804)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainDictionaryPassword()'><b>apiErrorContainDictionaryPassword</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td><div><pre>java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainDictionaryPassword(ApiCustomerPost.java:773)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1776486598", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1776486598'><pre>java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainDictionaryPassword(ApiCustomerPost.java:773)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainDigitsPassword()'><b>apiErrorContainDigitsPassword</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td><div><pre>java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainDigitsPassword(ApiCustomerPost.java:733)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace144467413", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace144467413'><pre>java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainDigitsPassword(ApiCustomerPost.java:733)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainSpecialCharactersPassword()'><b>apiErrorContainSpecialCharactersPassword</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td><div><pre>java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainSpecialCharactersPassword(ApiCustomerPost.java:763)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1871542036", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1871542036'><pre>java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainSpecialCharactersPassword(ApiCustomerPost.java:763)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneNumber()'><b>apiErrorInvalidPhoneNumber</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td><div><pre>java.lang.AssertionError: expected [contact.phone[0].phoneNumber] but found [contact.phone[0].number]
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneNumber(ApiCustomerPost.java:430)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1590129041", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1590129041'><pre>java.lang.AssertionError: expected [contact.phone[0].phoneNumber] but found [contact.phone[0].number]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneNumber(ApiCustomerPost.java:430)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneNumber2()'><b>apiErrorInvalidPhoneNumber2</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td><div><pre>java.lang.AssertionError: expected [contact.phone[1].phoneNumber] but found [contact.phone[1].number]
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneNumber2(ApiCustomerPost.java:470)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1314228008", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1314228008'><pre>java.lang.AssertionError: expected [contact.phone[1].phoneNumber] but found [contact.phone[1].number]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneNumber2(ApiCustomerPost.java:470)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneNumber3()'><b>apiErrorInvalidPhoneNumber3</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td><div><pre>java.lang.AssertionError: expected [contact.phone[2].phoneNumber] but found [contact.phone[2].number]
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneNumber3(ApiCustomerPost.java:510)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace824357143", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace824357143'><pre>java.lang.AssertionError: expected [contact.phone[2].phoneNumber] but found [contact.phone[2].number]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneNumber3(ApiCustomerPost.java:510)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneType()'><b>apiErrorInvalidPhoneType</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td><div><pre>java.lang.AssertionError: expected [contact.phone[0].phoneType] but found [contact.phone[0].type]
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneType(ApiCustomerPost.java:450)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace116184677", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace116184677'><pre>java.lang.AssertionError: expected [contact.phone[0].phoneType] but found [contact.phone[0].type]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneType(ApiCustomerPost.java:450)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneType2()'><b>apiErrorInvalidPhoneType2</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td><div><pre>java.lang.AssertionError: expected [contact.phone[1].phoneType] but found [contact.phone[1].type]
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneType2(ApiCustomerPost.java:491)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1601756706", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1601756706'><pre>java.lang.AssertionError: expected [contact.phone[1].phoneType] but found [contact.phone[1].type]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneType2(ApiCustomerPost.java:491)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneType3()'><b>apiErrorInvalidPhoneType3</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td><div><pre>java.lang.AssertionError: expected [contact.phone[2].phoneType] but found [contact.phone[2].type]
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneType3(ApiCustomerPost.java:532)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace991242536", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace991242536'><pre>java.lang.AssertionError: expected [contact.phone[2].phoneType] but found [contact.phone[2].type]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPhoneType3(ApiCustomerPost.java:532)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorMaxLengthPassword()'><b>apiErrorMaxLengthPassword</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td><div><pre>java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorMaxLengthPassword(ApiCustomerPost.java:723)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1827212229", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1827212229'><pre>java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorMaxLengthPassword(ApiCustomerPost.java:723)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorMixCasesPassword()'><b>apiErrorMixCasesPassword</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td><div><pre>java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorMixCasesPassword(ApiCustomerPost.java:743)
+... Removed 24 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace491152599", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace491152599'><pre>java.lang.NullPointerException
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.checkError(ApiCustomerPost.java:1019)
+	at automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorMixCasesPassword(ApiCustomerPost.java:743)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankAddress()'><b>apiErrorBlankAddress</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>1</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankCity()'><b>apiErrorBlankCity</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankContact()'><b>apiErrorBlankContact</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankContactFirstName()'><b>apiErrorBlankContactFirstName</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankContactLastName()'><b>apiErrorBlankContactLastName</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankContactName()'><b>apiErrorBlankContactName</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankContactType()'><b>apiErrorBlankContactType</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankCountry()'><b>apiErrorBlankCountry</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankCustomerType()'><b>apiErrorBlankCustomerType</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankEmail()'><b>apiErrorBlankEmail</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPassword()'><b>apiErrorBlankPassword</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPersonalId()'><b>apiErrorBlankPersonalId</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPersonalIdType()'><b>apiErrorBlankPersonalIdType</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankPostalCode()'><b>apiErrorBlankPostalCode</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankState()'><b>apiErrorBlankState</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorBlankUserName()'><b>apiErrorBlankUserName</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainConsecutiveCharacterPassword()'><b>apiErrorContainConsecutiveCharacterPassword</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>1</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainUsernamePassword()'><b>apiErrorContainUsernamePassword</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorContainUsernamePin()'><b>apiErrorContainUsernamePin</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorDuplicateUserName()'><b>apiErrorDuplicateUserName</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidContactType()'><b>apiErrorInvalidContactType</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidCountry()'><b>apiErrorInvalidCountry</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidCustomerType()'><b>apiErrorInvalidCustomerType</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidFormatEmail()'><b>apiErrorInvalidFormatEmail</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPersonalIdType()'><b>apiErrorInvalidPersonalIdType</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidPostalCode()'><b>apiErrorInvalidPostalCode</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidState()'><b>apiErrorInvalidState</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidSuffixId()'><b>apiErrorInvalidSuffixId</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorInvalidUserName()'><b>apiErrorInvalidUserName</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorMaxLengthAddress()'><b>apiErrorMaxLengthAddress</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorMaxLengthAddress2()'><b>apiErrorMaxLengthAddress2</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorMaxLengthCity()'><b>apiErrorMaxLengthCity</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorMaxLengthContactFirstName()'><b>apiErrorMaxLengthContactFirstName</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorMaxLengthContactLastName()'><b>apiErrorMaxLengthContactLastName</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorMaxLengthContactMiddleName()'><b>apiErrorMaxLengthContactMiddleName</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorMaxLengthPersonalId()'><b>apiErrorMaxLengthPersonalId</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorMaxLengthUserName()'><b>apiErrorMaxLengthUserName</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorMaximumLengthEmail()'><b>apiErrorMaximumLengthEmail</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorMinLengthPassword()'><b>apiErrorMinLengthPassword</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorMustContainLettersPassword()'><b>apiErrorMustContainLettersPassword</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorNonNumericPin()'><b>apiErrorNonNumericPin</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorSecurityAnswerBlank()'><b>apiErrorSecurityAnswerBlank</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorSecurityAnswerMaxLength()'><b>apiErrorSecurityAnswerMaxLength</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>1</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorSecurityQuestionBlank()'><b>apiErrorSecurityQuestionBlank</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorSecurityQuestionInvalid()'><b>apiErrorSecurityQuestionInvalid</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorSpecialCharactersEmail()'><b>apiErrorSpecialCharactersEmail</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorSpecialCharactersUserName()'><b>apiErrorSpecialCharactersUserName</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorTooLongPin()'><b>apiErrorTooLongPin</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiErrorTooSmallPin()'><b>apiErrorTooSmallPin</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiGetCustomerInfo()'><b>apiGetCustomerInfo</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiGetSuccess()'><b>apiGetSuccess</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+<tr>
+<td title='automationFramework.NextWave2RestApi.ApiCustomerPost.apiPostSuccess()'><b>apiPostSuccess</b><br>Test class: automationFramework.NextWave2RestApi.ApiCustomerPost</td>
+<td></td>
+<td>0</td>
+<td>automationFramework.NextWave2RestApi.ApiCustomerPost@86be70a</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ApiTest"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.779">
+  <properties />
+  
+  
+            <testcase name="apiGetCustomerInfo" time="1.779" classname="automationFramework.NextWave2RestApi.ApiCustomerGet" />
+      
+</testsuite>

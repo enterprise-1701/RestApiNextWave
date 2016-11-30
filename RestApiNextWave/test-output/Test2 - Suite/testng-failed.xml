@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test2 - Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="ApiTest(failed)">
+    <classes>
+      <class name="automationFramework.NextWave2RestApi.ApiCustomerPost">
+        <methods>
+          <include name="apiErrorContainConsecutiveCharacterPin"/>
+          <include name="apiErrorBlankPhoneNumber"/>
+          <include name="apiErrorContainContigousCharacterPin"/>
+          <include name="apiErrorInvalidPhoneType2"/>
+          <include name="setUp"/>
+          <include name="apiErrorAddressId"/>
+          <include name="apiErrorInvalidPhoneNumber"/>
+          <include name="apiErrorInvalidPhoneNumber3"/>
+          <include name="apiErrorInvalidPhoneType3"/>
+          <include name="apiErrorInvalidPhoneNumber2"/>
+          <include name="apiErrorInvalidPhoneType"/>
+          <include name="apiErrorBlankPhoneType3"/>
+          <include name="apiErrorMaxLengthPassword"/>
+          <include name="apiErrorBlankPhoneType2"/>
+          <include name="apiErrorContainDigitsPassword"/>
+          <include name="apiErrorContainDictionaryPassword"/>
+          <include name="apiErrorMixCasesPassword"/>
+          <include name="apiErrorBlankPhoneType"/>
+          <include name="apiErrorBlankPhoneNumber2"/>
+          <include name="apiErrorContainSpecialCharactersPassword"/>
+          <include name="tearDown"/>
+          <include name="apiErrorBlankPhoneNumber3"/>
+        </methods>
+      </class> <!-- automationFramework.NextWave2RestApi.ApiCustomerPost -->
+    </classes>
+  </test> <!-- ApiTest(failed) -->
+</suite> <!-- Failed suite [Test2 - Suite] -->

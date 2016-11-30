@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Test2 - Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="ApiTest(failed)">
+    <classes>
+      <class name="automationFramework.TestCases.ApiCustomerPost">
+        <methods>
+          <include name="apiErrorAddressId"/>
+          <include name="apiErrorBlankCountry"/>
+          <include name="setUp"/>
+          <include name="apiErrorBlankCity"/>
+          <include name="apiErrorInvalidSuffixId"/>
+          <include name="apiErrorInvalidCustomerType"/>
+          <include name="apiErrorBlankAddress"/>
+          <include name="apiErrorInvalidContactType"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.ApiCustomerPost -->
+    </classes>
+  </test> <!-- ApiTest(failed) -->
+</suite> <!-- Failed suite [Test2 - Suite] -->

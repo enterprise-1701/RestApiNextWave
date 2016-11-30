@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="20" failures="7" name="TestSuite" time="2.329" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_77\bin"/>
+    <property name="java.vm.version" value="25.77-b03"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\200123\workspace\RestApiNextWave"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\200123\workspace\RestApiNextWave"/>
+    <property name="java.runtime.version" value="1.8.0_77-b03"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_77\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\200123\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\200123\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7912827868796312228.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_77\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_77/bin/server;C:/Program Files/Java/jre1.8.0_77/bin;C:/Program Files/Java/jre1.8.0_77/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\oracle\product\10.2.0\clientx86_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Program Files\MongoDB\Server\3.2\bin;C:\Users\200123\Downloads\gradle-2.13-all\gradle-2.13\bin;C:\dev\bin;C:\cts\jdk8\bin;C:\dev\unix\usr\local\wbin;C:\Program Files\nodejs\;C:\dev\unix\usr\local\wbin;C:\ProgramData\Oracle\Java\javapath;C:\oracle\product\10.2.0\clientx86_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\apache-maven-3.3.9\bin;C:\Users\200123\AppData\Local\Programs\Git\cmd;C:\Users\200123\AppData\Roaming\npm;C:\Users\200123\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\200123"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="200123"/>
+    <property name="java.class.path" value="/C:/Users/200123/eclipse/automotive-mars/eclipse/../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_77"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_77"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_77\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_77\lib\resources.jar;C:\Program Files\Java\jre1.8.0_77\lib\rt.jar;C:\Program Files\Java\jre1.8.0_77\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_77\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_77\lib\jce.jar;C:\Program Files\Java\jre1.8.0_77\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_77\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_77\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\200123\workspace\RestApiNextWave\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="automationFramework.TestCases.ApiCustomerPost" name="apiErrorAddressId" time="1.594">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:372)
+	at automationFramework.TestCases.ApiCustomerPost.apiErrorAddressId(ApiCustomerPost.java:187)
+</failure>
+  </testcase>
+  <testcase classname="automationFramework.TestCases.ApiCustomerPost" name="apiErrorBlankAddress" time="0.045">
+    <failure message="expected [If address is provided, address1 is required.] but found [Field is blank.]" type="java.lang.AssertionError">java.lang.AssertionError: expected [If address is provided, address1 is required.] but found [Field is blank.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:374)
+	at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankAddress(ApiCustomerPost.java:198)
+</failure>
+    <system-out>Time in Milliseconds: 0 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,415 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.required matches expected errorkey errors.general.value.required 
+ 
+Time in Milliseconds: 0 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,415 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.required matches expected errorkey errors.general.value.required 
+ 
+2016-11-01 11:36:52,415 INFO  [Logger] Actual error key errors.general.value.required matches expected errorkey errors.general.value.required 
+</system-out>
+  </testcase>
+  <testcase classname="automationFramework.TestCases.ApiCustomerPost" name="apiErrorBlankCity" time="0.034">
+    <failure message="expected [If address is provided, city is required.] but found [Field is blank.]" type="java.lang.AssertionError">java.lang.AssertionError: expected [If address is provided, city is required.] but found [Field is blank.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:374)
+	at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankCity(ApiCustomerPost.java:233)
+</failure>
+    <system-out>Time in Milliseconds: 51 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,466 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.required matches expected errorkey errors.general.value.required 
+ 
+Time in Milliseconds: 51 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,466 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.required matches expected errorkey errors.general.value.required 
+ 
+Time in Milliseconds: 51 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,466 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.required matches expected errorkey errors.general.value.required 
+ 
+2016-11-01 11:36:52,466 INFO  [Logger] Actual error key errors.general.value.required matches expected errorkey errors.general.value.required 
+</system-out>
+  </testcase>
+  <testcase classname="automationFramework.TestCases.ApiCustomerPost" name="apiErrorBlankContact" time="0.054"/>
+  <testcase classname="automationFramework.TestCases.ApiCustomerPost" name="apiErrorBlankContactFirstName" time="0.053"/>
+  <testcase classname="automationFramework.TestCases.ApiCustomerPost" name="apiErrorBlankContactLastName" time="0.019"/>
+  <testcase classname="automationFramework.TestCases.ApiCustomerPost" name="apiErrorBlankContactName" time="0.034"/>
+  <testcase classname="automationFramework.TestCases.ApiCustomerPost" name="apiErrorBlankContactType" time="0.027"/>
+  <testcase classname="automationFramework.TestCases.ApiCustomerPost" name="apiErrorBlankCountry" time="0.028">
+    <failure message="expected [If address is provided, country is required.] but found [Field is blank.]" type="java.lang.AssertionError">java.lang.AssertionError: expected [If address is provided, country is required.] but found [Field is blank.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:374)
+	at automationFramework.TestCases.ApiCustomerPost.apiErrorBlankCountry(ApiCustomerPost.java:255)
+</failure>
+    <system-out>Time in Milliseconds: 423 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,838 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.required matches expected errorkey errors.general.value.required 
+ 
+Time in Milliseconds: 423 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,838 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.required matches expected errorkey errors.general.value.required 
+ 
+Time in Milliseconds: 423 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,838 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.required matches expected errorkey errors.general.value.required 
+ 
+Time in Milliseconds: 423 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,838 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.required matches expected errorkey errors.general.value.required 
+ 
+Time in Milliseconds: 423 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,838 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.required matches expected errorkey errors.general.value.required 
+ 
+Time in Milliseconds: 423 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,838 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.required matches expected errorkey errors.general.value.required 
+ 
+Time in Milliseconds: 423 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,838 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.required matches expected errorkey errors.general.value.required 
+ 
+Time in Milliseconds: 423 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,838 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.required matches expected errorkey errors.general.value.required 
+ 
+Time in Milliseconds: 423 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,838 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.required matches expected errorkey errors.general.value.required 
+ 
+2016-11-01 11:36:52,838 INFO  [Logger] Actual error key errors.general.value.required matches expected errorkey errors.general.value.required 
+</system-out>
+  </testcase>
+  <testcase classname="automationFramework.TestCases.ApiCustomerPost" name="apiErrorBlankCustomerType" time="0.073"/>
+  <testcase classname="automationFramework.TestCases.ApiCustomerPost" name="apiErrorInvalidContactType" time="0.03">
+    <failure message="expected [Invalid contact type.] but found [Invalid value.]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Invalid contact type.] but found [Invalid value.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:374)
+	at automationFramework.TestCases.ApiCustomerPost.apiErrorInvalidContactType(ApiCustomerPost.java:86)
+</failure>
+    <system-out>Time in Milliseconds: 578 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,993 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+Time in Milliseconds: 578 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,993 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+Time in Milliseconds: 578 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,993 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+Time in Milliseconds: 578 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,993 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+Time in Milliseconds: 578 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,993 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+Time in Milliseconds: 578 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,993 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+Time in Milliseconds: 578 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,993 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+Time in Milliseconds: 578 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,993 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+Time in Milliseconds: 578 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,993 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+Time in Milliseconds: 578 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,993 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+Time in Milliseconds: 578 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:52,993 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+2016-11-01 11:36:52,993 INFO  [Logger] Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+</system-out>
+  </testcase>
+  <testcase classname="automationFramework.TestCases.ApiCustomerPost" name="apiErrorInvalidCustomerType" time="0.031">
+    <failure message="expected [Invalid customer type.] but found [Invalid value.]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Invalid customer type.] but found [Invalid value.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:374)
+	at automationFramework.TestCases.ApiCustomerPost.apiErrorInvalidCustomerType(ApiCustomerPost.java:65)
+</failure>
+    <system-out>Time in Milliseconds: 623 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:53,038 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+Time in Milliseconds: 623 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:53,038 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+Time in Milliseconds: 623 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:53,038 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+Time in Milliseconds: 623 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:53,038 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+Time in Milliseconds: 623 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:53,038 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+Time in Milliseconds: 623 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:53,038 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+Time in Milliseconds: 623 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:53,038 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+Time in Milliseconds: 623 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:53,038 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+Time in Milliseconds: 623 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:53,038 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+Time in Milliseconds: 623 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:53,038 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+Time in Milliseconds: 623 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:53,038 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+Time in Milliseconds: 623 
+Test Case: automationFramework.TestCases.ApiCustomerPost 
+Time Stamp: 2016-11-01 11:36:53,038 
+Code Location: automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:373) 
+Log Message: Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+ 
+2016-11-01 11:36:53,038 INFO  [Logger] Actual error key errors.general.value.unexpected matches expected errorkey errors.general.value.unexpected 
+</system-out>
+  </testcase>
+  <testcase classname="automationFramework.TestCases.ApiCustomerPost" name="apiErrorInvalidSuffixId" time="0.042">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at automationFramework.TestCases.ApiCustomerPost.checkError(ApiCustomerPost.java:372)
+	at automationFramework.TestCases.ApiCustomerPost.apiErrorInvalidSuffixId(ApiCustomerPost.java:176)
+</failure>
+  </testcase>
+  <testcase classname="automationFramework.TestCases.ApiCustomerPost" name="apiErrorMaxLengthAddress" time="0.032"/>
+  <testcase classname="automationFramework.TestCases.ApiCustomerPost" name="apiErrorMaxLengthAddress2" time="0.029"/>
+  <testcase classname="automationFramework.TestCases.ApiCustomerPost" name="apiErrorMaxLengthCity" time="0.048"/>
+  <testcase classname="automationFramework.TestCases.ApiCustomerPost" name="apiErrorMaxLengthContactFirstName" time="0.063"/>
+  <testcase classname="automationFramework.TestCases.ApiCustomerPost" name="apiErrorMaxLengthContactLastName" time="0.022"/>
+  <testcase classname="automationFramework.TestCases.ApiCustomerPost" name="apiErrorMaxLengthContactMiddleName" time="0.027"/>
+  <testcase classname="automationFramework.TestCases.ApiCustomerPost" name="apiPostSuccess" time="0.044"/>
+</testsuite>
